@@ -1,0 +1,13 @@
+Abstract Factory Design Pattern, Factory Design Pattern'ın bir türevidir ve birbiriyle ilişkili nesnelerin yaratılmasını kolaylaştırır. Bu desen, ilgili nesnelerin farklı varyasyonlarının oluşturulması gerektiğinde kullanılır.
+
+Abstract Factory Design Pattern, bir arayüz veya soyut sınıf üzerinden oluşturulur ve nesne yaratma işlemini gerçekleştiren metotları içerir. Bu metotlar, aynı arayüzü uygulayan ve benzer özelliklere sahip farklı somut nesne tiplerini yaratabilir.
+
+Bu desenin kullanımı, özellikle çok sayıda nesnenin oluşturulması gereken ve bu nesnelerin birbiriyle uyumlu olması gereken durumlarda önerilir. Bu desen sayesinde, ilgili nesnelerin farklı varyasyonları, tek bir arayüz veya soyut sınıf üzerinden yaratılabilir.
+
+Abstract Factory Design Pattern'in temel bileşenleri şunlardır:
+
+Abstract Factory: Somut fabrika sınıflarının uygulamasını tanımlayan soyut bir sınıf veya arayüz.
+Concrete Factory: Somut fabrika sınıflarının uygulamasını sağlar ve Abstract Factory arayüzünden veya soyut sınıfından kalıtım alır.
+Abstract Product: Fabrika tarafından oluşturulan ürünlerin soyut bir sınıf veya arayüzünü tanımlar.
+Concrete Product: Abstract Product sınıfından kalıtım alan somut ürün sınıfları.
+Abstract Factory Design Pattern, genellikle creational (yaratımsal) desenler kategorisinde yer alır ve nesne yaratma işleminin yönetimindeki ayrışmayı sağlar. Bu desen, birbiriyle ilişkili nesnelerin yaratılması gerektiği durumlarda, kod tekrarını önlemek, uygulama modülerliğini artırmak ve kodun bakımını kolaylaştırmak için kullanılır.
