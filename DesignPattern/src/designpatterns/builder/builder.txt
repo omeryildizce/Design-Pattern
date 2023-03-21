@@ -1,0 +1,7 @@
+Builder design pattern, yaratılışı kompleks olan nesnelerin, parça parça inşa edilmesini ve sonunda tamamlanmış bir nesne elde edilmesini sağlayan bir creational (yaratımsal) tasarım desenidir.
+
+Builder deseninde, nesnenin yapısını oluşturan parçalar ayrı ayrı ele alınır ve bu parçaları tek tek ekleyerek tamamlanmış nesne oluşturulur. Bu sayede, nesnenin yapısında değişiklik yapmak veya farklı varyasyonlar oluşturmak daha kolay hale gelir.
+
+Builder deseni, özellikle büyük ve kompleks nesnelerin yaratılması gereken durumlarda kullanılır. Nesnenin yapısı değişebilir veya farklı varyasyonları oluşturulabilirse, Builder deseni tercih edilir.
+
+Builder deseni, aynı zamanda nesne yapısını gizleme (encapsulation) prensibine uygun olarak çalışır. Nesne yapısını oluşturan parçaların detayları, sadece Builder sınıfında yer alır ve kullanıcıların bu detaylara erişmesi engellenir. Bu sayede, nesne yapısı korunur ve hatalı kullanım önlenir.
