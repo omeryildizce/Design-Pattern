@@ -1,0 +1,5 @@
+Prototype tasarım deseni, nesnelerin örnekleri üzerinden yeni nesneler oluşturmak için kullanılan bir tasarım desenidir. Bu desen, önceden oluşturulmuş bir nesneyi kopyalayarak yeni bir nesne oluşturmayı sağlar. Bu, nesnenin özelliklerini ve davranışını paylaşan yeni bir nesne oluşturmanın hızlı ve etkili bir yoludur.
+
+Prototype tasarım deseninde, önceden oluşturulmuş bir örnek (prototip) kullanılarak yeni nesneler oluşturulur. Prototip nesne, klonlamak için kullanılan örnek nesnedir. Bu şekilde, her yeni nesne önceki nesneye benzeyebilir veya farklı özelliklere sahip olabilir.
+
+Bu tasarım deseni, nesnelerin oluşturulmasını ve yapılandırılmasını kolaylaştırır ve aynı zamanda kod tekrarını azaltır. Ayrıca, prototip nesnesinin kopyalanması, nesne oluşturma maliyetini azaltır ve nesnenin özelliklerini ve davranışını değiştirmek kolaydır. Bu desen, özellikle bir nesnenin çok sayıda benzer kopyalarının oluşturulması gerektiği durumlarda faydalıdır.
