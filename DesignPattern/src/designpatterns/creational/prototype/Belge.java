@@ -1,4 +1,4 @@
-package designpatterns.prototype;
+package designpatterns.creational.prototype;
 
 public class Belge implements Cloneable {
     private Long id;

@@ -1,4 +1,4 @@
-package designpatterns.prototype;
+package designpatterns.creational.prototype;
 
 public class Kategori implements Cloneable{
     private Long id;

@@ -1,4 +1,4 @@
-package designpatterns.builder;
+package designpatterns.creational.builder;
 
 public class Emlakci {
     public static void main(String[] args) {

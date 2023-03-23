@@ -1,4 +1,4 @@
-package designpatterns.prototype;
+package designpatterns.creational.prototype;
 
 public class GenelEntitiyService {
     public BelgeTuru findBelgeTuruById(Long id){

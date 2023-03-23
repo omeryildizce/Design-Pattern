@@ -1,4 +1,4 @@
-package designpatterns.singelton;
+package designpatterns.creational.singelton;
 
 /**
  * Singleton tasarım kalıbı, bir sınıfın yalnızca bir örneğinin olmasını sağlar ve bu örneğin global bir erişime sahip olmasını sağlar.<br>

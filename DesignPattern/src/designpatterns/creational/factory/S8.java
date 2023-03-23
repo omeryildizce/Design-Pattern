@@ -1,12 +1,12 @@
-package designpatterns.abstractfactory;
+package designpatterns.creational.factory;
 
-public class Note8 implements Telefon{
+public class S8 implements Telefon {
     private String model;
     private String batarya;
     private int en;
     private int boy;
 
-    public Note8(String model, String batarya, int en, int boy) {
+    public S8(String model, String batarya, int en, int boy) {
         this.model = model;
         this.batarya = batarya;
         this.en = en;
@@ -15,7 +15,7 @@ public class Note8 implements Telefon{
 
     @Override
     public String toString() {
-        return "Note8{" +
+        return "S8{" +
                 "model='" + model + '\'' +
                 ", batarya='" + batarya + '\'' +
                 ", en=" + en +

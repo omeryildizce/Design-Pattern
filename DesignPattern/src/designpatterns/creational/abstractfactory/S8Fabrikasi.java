@@ -1,4 +1,4 @@
-package designpatterns.abstractfactory;
+package designpatterns.creational.abstractfactory;
 
 public class S8Fabrikasi implements TelefonFactory {
     @Override

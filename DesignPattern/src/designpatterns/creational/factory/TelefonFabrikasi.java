@@ -1,4 +1,4 @@
-package designpatterns.factory;
+package designpatterns.creational.factory;
 
 public class TelefonFabrikasi {
     public static Telefon getTelefon(String model, String batarya, int en, int boy){
