@@ -1,0 +1,7 @@
+Adapter tasarım deseni, iki farklı arayüzün birbirleriyle uyumlu hale getirilmesi için kullanılan bir yapısal tasarım desenidir. Bu desen, mevcut bir sınıfın arabirimini, istenen başka bir arabirime dönüştürmek için kullanılır.
+
+Bazen mevcut bir sınıfın arabirimi, bir başka sınıfın kullanımı için uygun değildir. Bu durumda, adapter tasarım deseni kullanılarak, mevcut sınıfın arabirimi, istenen arabirimle uyumlu hale getirilir ve böylece istenen sınıfın kullanımı mümkün hale gelir.
+
+Adapter tasarım deseni, iki farklı arabirimi birbirine bağlayan bir ara katman ekleyerek çalışır. Bu ara katman, mevcut arabirimi istenen arabirime çevirir ve böylece mevcut sınıfın kullanımı için istenen arabirime uyum sağlar.
+
+Bu desen, özellikle farklı sınıfların birbiriyle uyumlu hale getirilmesi gereken karmaşık sistemlerde sıklıkla kullanılır. Örneğin, bir uygulama, farklı veri kaynaklarından veri almak için farklı arayüzlere sahip olabilir. Bu durumda, her bir veri kaynağı için bir adapter sınıfı oluşturarak, tüm veri kaynaklarının uygulama tarafından kolayca kullanılması sağlanabilir.
