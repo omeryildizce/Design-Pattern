@@ -1,0 +1,3 @@
+Bridge design pattern, bir yazılım tasarım kalıbıdır ve yapısal bir kalıptır. Bu kalıp, nesne yönelimli programlamada, nesneler arasındaki ilişkileri tanımlamak için kullanılır. Bridge design pattern, genellikle soyutlama ve uygulama arasındaki ilişkiyi zayıflatmak için kullanılır. Bu, her birinin ayrı ayrı değiştirilebilir hale getirildiği soyutlamayı ve uygulamayı birbirinden ayırarak, daha esnek bir tasarım sağlar.
+
+Bu desen, uygulama içindeki herhangi bir değişikliğin, uygulama içindeki diğer bileşenler üzerindeki etkisini en aza indirmeyi sağlar. Bu, uygulamanın daha modüler hale gelmesine ve bakımının daha kolay olmasına olanak tanır. Bu kalıp, özellikle arayüzler ve gerçek uygulama sınıfları arasındaki ilişkilerde kullanılır.
